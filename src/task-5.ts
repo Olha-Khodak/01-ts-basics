@@ -9,3 +9,6 @@ function logStatus(status: "loading" | "success" | "error"): void {
 }
 
 logStatus("loading");
+logStatus("success");
+logStatus("error");
+//logStatus("unknown");//Argument of type '"unknown"' is not assignable to parameter of type '"loading" | "success" | "error"'.

@@ -14,5 +14,5 @@ async function fetchPosts(): Promise<Post[]> {
 }
 
 fetchPosts().then((posts) => {
-  console.log(posts[0].title);
+  console.log(posts[0].title); // "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
 });
